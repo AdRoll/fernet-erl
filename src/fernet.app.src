@@ -1,7 +1,7 @@
 {application,
  fernet,
  [{description, "An Erlang fernet library"},
-  {vsn, "1.0.0"},
+  {vsn, git},
   {modules, [fernet]},
   {registered, []},
   {applications, [kernel, stdlib, base64url, pkcs7]},
